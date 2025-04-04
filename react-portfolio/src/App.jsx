@@ -28,6 +28,8 @@ const App = () => {
     },
   ];
 
+  let comfortable = mySkill.comfort >= 6 ? 'I am comfortable' : 'I am not comfortable';
+
   return (
     <>
     <h1>My React Portfolio</h1>
